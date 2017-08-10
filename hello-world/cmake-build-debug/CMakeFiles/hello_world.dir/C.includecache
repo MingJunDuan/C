@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/code/idea/workspace-c/hello-world/MyFunction3.h
+
+/opt/code/idea/workspace-c/hello-world/main.c
+stdio.h
+-
+MyFunction3.h
+/opt/code/idea/workspace-c/hello-world/MyFunction3.h
+
